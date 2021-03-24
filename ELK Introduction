@@ -1,0 +1,29 @@
+ELK stands for ElasticSearch LogStash Kibana
+ELK stack is a combination of 3 open-source tools: ELasticsearch, Logstach & Kibana for log analysis.
+
+LOGSTASH will collect the logs from System logs, Log files, kafka Queues etc. Then it will create a pipeline and then send data
+through that pipeline to ELATICSEARCH and ELASTICSEARCH will store that data(logs) in different indices. Fianlly if you want to search that
+data at anypoint of time or you want to perfom analytics that all is done with the help of KIBANA. So KIBANA makes Queries in Elasticsearch
+to do all of this
+
+ELasticSearch: it does all the analytics of the logs
+
+Logstash: (does the log collection) Tool for collecting and monitoring logs from remote machines. It is a data pipeline for Elasticsearch.
+
+Kibana: Kibana is a tool that provides front end (UI) to your ELK stack. Be it searching the data, performing analytics, creating reports
+        all these things are done on Kibana. You do the searching via kibana and kibana actually goes searches Elaticsearch for that 
+        particular data.
+       - It is a Data exploration & visualization tool.
+       - Used for log & time series analytics, application monitoring and operational Intelligence.
+       
+KIBANA
+- Enables the searching & interaction with data in Elasticsearch
+- Allows performing advanced analytics & creation of reports
+- Enables creation & sharing of dynamic dashboards that get updated in realtime
+( Note: Kibana is a web based tool i.e. you interact kibana over the web. Kibana is accesed over the web at port localhost:5601 )
+
+Companies using kibana
+Linkedin, Netflix, accenture, HipChat, stackoverflow
+
+Hands On
+Data Visualization with kibana
